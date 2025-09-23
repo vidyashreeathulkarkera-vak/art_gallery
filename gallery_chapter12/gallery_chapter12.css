@@ -1,0 +1,39 @@
+.header{
+		width:100%;
+		
+		padding-top:16px;
+		 padding-bottom: 16px;
+		font-size:20px;
+		text-align: center;
+		font-weight:bold;
+		 font-family: "Georama", sans-serif;
+		 border:2px solid grey;
+	}
+	body{margin:0;}
+	.feed-box{
+		 width: 100%;
+    height: 500px;
+    margin-bottom:8px;
+ 
+	}
+.feed {
+    padding: 8px;
+}
+.feed-image{
+    width: 100%;
+    height: 80%;
+   
+}
+.feed-description{
+    width: 100%;
+    height: 50px;
+   background-color: #E0E0E0;
+    font-family: 'Georama', sans-serif;
+    box-sizing: border-box;
+    padding:8px;
+}
+.feed-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
