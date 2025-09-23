@@ -1,0 +1,32 @@
+<select id='color-dropdown'>
+	<option>red</option>
+	<option>blue</option>
+	<option>green</option>
+	<option>yellow</option>
+	<option>purple</option>
+	<option>white</option>
+</select>
+<div style="border:2px solid green"id='box-canvas'></div>
+<script>
+	function paintTheBox(box_id){
+		var color =document.getElementById('color-dropdown').value;		
+		document.getElementById(box_id).style.backgroundColor=color
+	}
+	var canvas=document.getElementById('box-canvas')
+	for(var i=1;i<=10100;i++){
+		var box1=document.createElement('div')
+	box1.setAttribute('class','box')
+	box1.setAttribute('id','box'+ i)
+	box1.setAttribute('onclick',"paintTheBox('box"+i+"')");
+	canvas.appendChild(box1);
+	}
+	
+</script>
+<style>
+	.box {
+    height: 10px; 
+    width: 10px; 
+    border: 1px solid none;
+    display:inline-block;
+}
+</style>
