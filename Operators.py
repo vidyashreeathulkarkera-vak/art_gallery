@@ -9,5 +9,6 @@ print(a//b)#4
 
 print()
 
+#loops in python
 for i in range(0,a//b):
     print(i)

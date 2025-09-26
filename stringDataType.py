@@ -1,4 +1,7 @@
 parrot="Norwegien blue"
 
 print(parrot)
-print("w\ne\n\nw\ni\nn")
+print(parrot[4]+'\n')
+print(parrot[5]+'\n\n')
+print()
+print(parrot[7]+'\n')
