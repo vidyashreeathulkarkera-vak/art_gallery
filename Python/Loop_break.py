@@ -11,4 +11,5 @@ for index in range(len(shopping_List)):
   if shopping_List[index]==item_To_Find:
     foundAt=index
     break;
-print("Item found at {}".format(foundAt))#prints 3
+if foundAt is not None:
+  print("Item found at {}".format(foundAt))#prints 3
