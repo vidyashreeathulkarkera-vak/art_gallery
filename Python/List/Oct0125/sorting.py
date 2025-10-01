@@ -17,7 +17,7 @@ print(sorted_literal)
 missing_letter=sorted("The quick brown fox jumps over the lay dog",key=str.casefold)
 print(missing_letter)
 
-names=["Graham",
+names=["Graham", 
        "John",
        "terry",
        "eric",
